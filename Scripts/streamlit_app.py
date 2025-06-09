@@ -39,7 +39,7 @@ inst_payment_diff_mean = st.number_input("Différence moyenne entre paiement pr�
 if st.button("Prédire"):
 
     # Charger le template complet à 203 colonnes
-    template_df = pd.read_csv("data_template.csv")
+    template_df = pd.read_csv("Scripts/data_template.csv")
 
     # Remplacer les 10 colonnes saisies par l'utilisateur
     template_df['ext_source_1'] = ext_source_1
