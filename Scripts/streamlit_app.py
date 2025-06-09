@@ -17,7 +17,7 @@ st.write("Veuillez remplir les informations suivantes :")
 #3  charges le modele
 
 
-model = joblib.load("model_final_203features.pkl")
+model = joblib.load("Scripts/model_final_203features.pkl")
 
 
 # 4. Interface utilisateur – on crée les champs à remplir
